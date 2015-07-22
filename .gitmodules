@@ -1,0 +1,3 @@
+[submodule "mods/torches"]
+	path = mods/torches
+	url = https://github.com/Athemis/torches.git
