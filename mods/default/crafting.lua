@@ -75,7 +75,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = 'torches:torch 4',
+	output = 'default:torch 4',
 	recipe = {
 		{'default:coal_lump'},
 		{'default:stick'},
@@ -83,7 +83,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = 'torches:torch 4',
+	output = 'default:torch 4',
 	recipe = {
 		{'default:charcoal_lump'},
 		{'default:stick'},
@@ -738,7 +738,7 @@ minetest.register_craft({
 
 minetest.register_craft({
 	type = "fuel",
-	recipe = "torches:torch",
+	recipe = "default:torch",
 	burntime = 4,
 })
 
